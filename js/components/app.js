@@ -1,4 +1,4 @@
-import html from '/js/html.js';
+import html from '../html.js';
 import examplesApi from '../services/examples-api.js';
 import Example from './example.js';
 
@@ -29,7 +29,7 @@ export default class App {
     
             ul.appendChild(example.render());
         }
-        
+
         return dom;
     }
 }
